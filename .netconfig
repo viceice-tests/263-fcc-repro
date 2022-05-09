@@ -1,0 +1,5 @@
+[ReportGenerator]
+  reports = "**/TestResults/*/*.cobertura.xml;coverage/**/cobertura-coverage.xml"
+  targetdir = ".coverage/"
+  reporttypes = "TextSummary;Cobertura;Html"
+  historydir  = ".coverage/history/"
